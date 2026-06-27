@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Base ───────────────────────────────────────────── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+body {
+  background: #0a0a0f;
+  color: #e0e0e0;
+  font-family: "JetBrains Mono", "Fira Code", monospace;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── Scrollbar (cyberpunk thin) ─────────────────────── */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00e5a0;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00b87a;
+}
+
+/* ── Split pane gutter ──────────────────────────────── */
+.gutter {
+  background: #1a1a25;
+  cursor: col-resize;
+  width: 4px !important;
+  transition: background 0.15s;
+}
+
+.gutter:hover {
+  background: #00e5a0;
+}
+
+/* ── Cytoscape container ────────────────────────────── */
+#cy-graph {
+  width: 100%;
+  height: 100%;
+}
+
+/* ── Globe container ────────────────────────────────── */
+#globe-container {
+  width: 100%;
+  height: 100%;
+}
+
+/* ── Search input glow ──────────────────────────────── */
+.search-glow:focus {
+  box-shadow: 0 0 0 2px #00e5a0, 0 0 20px #00e5a040;
+}
