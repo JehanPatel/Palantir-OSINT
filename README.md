@@ -3,26 +3,6 @@
 **A stateless, real-time security investigation platform inspired by Palantir Gotham.**  
 Processes unstructured data on the fly, links it into an interactive entity-relationship graph, and projects geospatial findings onto a 3D globe — using free, open-source data points and zero database storage.
 
-```
-
-  ╔═══════════════════════════════════════════════════════════╗
-  ║                   PALANTIR  O S I N T                     ║
-  ╠═══════════════════════════════════════════════════════════╣
-  ║  ┌─────────────────────┐  ┌──────────────────────────┐   ║
-  ║  │   ENTITY GRAPH      │  │    GEOSPATIAL VIEW       │   ║
-  ║  │   ┌─────┐           │  │    🌍 3D interactive      │   ║
-  ║  │   │IOC◄─┤Event│     │  │    globe with markers    │   ║
-  ║  │   └──┬──┘    │      │  │    and arc trajectories  │   ║
-  ║  │      │  ┌────┘      │  │                          │   ║
-  ║  │      └──►Actor│      │  │    [  🌐  ⚡  🔴  ]      │   ║
-  ║  │   └─────┘   │
-  ║  └─────────────────────┘
-  ║       (Cytoscape.js)║
-
-  ╚═══════════════════════════════════════════════════════════╝
-
-```
-
 ---
 
 ## Table of Contents
